@@ -261,7 +261,7 @@ export function PrivacyPolicyPage() {
                   <li>Right to withdraw consent</li>
                 </ul>
                 <p className="text-gray-700 leading-relaxed">
-                  To exercise these rights, please contact our Privacy Officer at privacy@buzlin.com. We will respond to
+                  To exercise these rights, please contact our Privacy Officer at support@buzlin.ca . We will respond to
                   your request within 30 days.
                 </p>
               </section>
@@ -314,8 +314,8 @@ export function PrivacyPolicyPage() {
               <section id="childrens-privacy" className="mb-12">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Children's Privacy</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Our services are not intended for children under 13 years of age. We do not knowingly collect personal
-                  information from children under 13. If we become aware that we have collected personal information
+                  Our services are not intended for children under 16 years of age. We do not knowingly collect personal
+                  information from children under 16. If we become aware that we have collected personal information
                   from a child under 13, we will take steps to delete such information.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
