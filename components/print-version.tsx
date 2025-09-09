@@ -50,7 +50,7 @@ export function PrintVersion() {
           {
             title: "Your Rights",
             content:
-              "You have rights to access, correct, delete, restrict processing, port your data, object to processing, and withdraw consent. Contact privacy@buzlin.com to exercise these rights within 30 days.",
+              "You have rights to access, correct, delete, restrict processing, port your data, object to processing, and withdraw consent. Contact support@buzlin.ca to exercise these rights within 30 days.",
           },
         ],
       }
@@ -147,16 +147,16 @@ export function PrintVersion() {
           </h2>
           <div className="text-sm space-y-2">
             <p>
-              <strong>Privacy Officer:</strong> privacy@buzlin.com
+              <strong>Privacy Officer:</strong> support@buzlin.ca
             </p>
             <p>
-              <strong>Legal Team:</strong> legal@buzlin.com
+              <strong>Legal Team:</strong> support@buzlin.ca
             </p>
             <p>
-              <strong>General Support:</strong> support@buzlin.com
+              <strong>General Support:</strong> support@buzlin.ca
             </p>
             <div className="mt-4">
-              <p>
+              {/* <p>
                 <strong>Mailing Address:</strong>
               </p>
               <p className="ml-4">
@@ -169,7 +169,7 @@ export function PrintVersion() {
                 San Francisco, CA 94105
                 <br />
                 United States
-              </p>
+              </p> */}
             </div>
           </div>
         </section>
@@ -177,10 +177,10 @@ export function PrintVersion() {
 
       <div className="mt-12 pt-8 border-t border-gray-200 text-center">
         <p className="text-sm text-gray-600">
-          For the most current versions of these documents, visit: <strong>https://buzlin.com/legal</strong>
+          For the most current versions of these documents, visit: <strong>https://buzlin.ca/privacy-policy</strong>
         </p>
         <p className="text-sm text-gray-600 mt-2">
-          Questions? Contact us at: <strong>legal@buzlin.com</strong>
+          Questions? Contact us at: <strong>support@buzlin.ca</strong>
         </p>
         <p className="text-xs text-gray-500 mt-4">
           This document is automatically generated and contains the complete legal terms as of the generation date.
@@ -190,7 +190,7 @@ export function PrintVersion() {
       <div className="no-print mt-8 text-center space-x-4">
         <button
           onClick={() => window.print()}
-          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          className="px-6 py-2 bg-white  text-dark rounded-lg  transition-colors border-2"
         >
           Print Again
         </button>
@@ -200,12 +200,12 @@ export function PrintVersion() {
         >
           Close Window
         </button>
-        <button
+        {/* <button
           onClick={() => window.history.back()}
           className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
         >
           Back to Legal Center
-        </button>
+        </button> */}
       </div>
     </div>
   )

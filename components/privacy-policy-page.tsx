@@ -36,7 +36,7 @@ export function PrivacyPolicyPage() {
 
   const handleEmailSupport = () => {
     window.location.href =
-      "mailto:privacy@buzlin.com?subject=Privacy Policy Inquiry&body=Hello Buzlin Privacy Team,%0D%0A%0D%0AI have a question regarding your privacy policy:%0D%0A%0D%0A"
+      "mailto:support@buzlin.ca?subject=Privacy Policy Inquiry&body=Hello Buzlin Privacy Team,%0D%0A%0D%0AI have a question regarding your privacy policy:%0D%0A%0D%0A"
   }
 
   return (
@@ -390,7 +390,7 @@ export function PrivacyPolicyPage() {
                 </button>
 
                 <Link
-                  href="mailto:legal@buzlin.com"
+                  href="mailto:support@buzlin.ca"
                   className="w-full flex items-center space-x-3 px-4 py-3 text-left text-sm text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
